@@ -32,3 +32,9 @@ I normalized the data using `StandardScaler()` and created the DataFrame with th
 ![image](https://github.com/AlyssaChand/CryptoClustering/assets/151655013/7c86d73c-37e4-4c9e-9e20-1671e7155f43)
 
 I created a list of k-values from 1 to 11, computed the inertia for each k-value, and plotted the elbow curve.
+
+#### 6. Cluster Cryptocurrencies with K-means Using the Original Data
+
+![image](https://github.com/AlyssaChand/CryptoClustering/assets/151655013/fea228aa-360f-4650-b2da-dc6207ec5f9c)
+
+I initialized and fit the K-means model, predicted the clusters, and added the cluster data to the DataFrame.
