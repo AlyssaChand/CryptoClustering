@@ -64,3 +64,10 @@ I initialized and fit the K-means model, predicted the clusters, and added the c
 ![image](https://github.com/AlyssaChand/CryptoClustering/assets/151655013/af846db1-094e-47dd-a0f3-3468b942a502)
 
 Then created a scatter plot of the clusters.
+
+#### 10. Visualize and Compare the Results
+
+![image](https://github.com/AlyssaChand/CryptoClustering/assets/151655013/3e7c01dd-fdb2-4aa1-a538-fe1295b45268)
+
+![image](https://github.com/AlyssaChand/CryptoClustering/assets/151655013/21d6259b-2e7b-4ff4-b8c0-f04cc3947504)
+
