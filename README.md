@@ -38,3 +38,29 @@ I created a list of k-values from 1 to 11, computed the inertia for each k-value
 ![image](https://github.com/AlyssaChand/CryptoClustering/assets/151655013/fea228aa-360f-4650-b2da-dc6207ec5f9c)
 
 I initialized and fit the K-means model, predicted the clusters, and added the cluster data to the DataFrame.
+
+![image](https://github.com/AlyssaChand/CryptoClustering/assets/151655013/d671ad4c-51aa-4e78-a8b2-d136dbd79d5d)
+
+Then created a scatter plot of the clusters.
+
+#### 7. Optimize Clusters with Principal Component Analysis (PCA)
+
+![image](https://github.com/AlyssaChand/CryptoClustering/assets/151655013/85b54044-ff45-4b60-99e6-8e0b4e2568db)
+
+I created a PCA model instance and set `n_components=3`, used `fit_transform` to reduce to three principal components, and determined the explained variance. Then I created a new DataFrame with the PCA data.
+
+#### 8. Find the Best Value for k Using the PCA Data
+
+![image](https://github.com/AlyssaChand/CryptoClustering/assets/151655013/a688a88d-2715-4237-8705-318e46e65c47)
+
+I created a list of k-values from 1 to 11, computed the inertia for each k-value, and plotted the elbow curve.
+
+#### 9. Cluster Cryptocurrencies with K-means Using the PCA Data
+
+![image](https://github.com/AlyssaChand/CryptoClustering/assets/151655013/7176616f-a2b9-4afa-9789-d11966e4cf74)
+
+I initialized and fit the K-means model, predicted the clusters, and added the cluster data to the DataFrame.
+
+![image](https://github.com/AlyssaChand/CryptoClustering/assets/151655013/af846db1-094e-47dd-a0f3-3468b942a502)
+
+Then created a scatter plot of the clusters.
