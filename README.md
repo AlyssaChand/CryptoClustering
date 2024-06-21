@@ -1,5 +1,5 @@
 # CryptoClustering
-These are the sources I used to help write my code: scikit-learn.org, google, and BCS — watching our cloud recordings, using instructor activity solutions and the class activities as references.
+These are the sources I used to help write my code: scikit-learn.org, docs.python.org, google, and BCS — watching our cloud recordings, using instructor activity solutions and the class activities as references.
 
 In this assignment, the task is to use Python and unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes.
 
@@ -26,3 +26,9 @@ I added OMP_NUM_THREADS environment variable to 1 to avoid memory leak warnings 
 ![image](https://github.com/AlyssaChand/CryptoClustering/assets/151655013/fb0f45fa-82c1-44fb-9fe2-cd8d2c2d4e8a)
 
 I normalized the data using `StandardScaler()` and created the DataFrame with the scaled data.
+
+#### 5. Find the Best Value for k Using the Original Data
+
+![image](https://github.com/AlyssaChand/CryptoClustering/assets/151655013/7c86d73c-37e4-4c9e-9e20-1671e7155f43)
+
+I created a list of k-values from 1 to 11, computed the inertia for each k-value, and plotted the elbow curve.
