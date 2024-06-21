@@ -71,3 +71,4 @@ Then created a scatter plot of the clusters.
 
 ![image](https://github.com/AlyssaChand/CryptoClustering/assets/151655013/21d6259b-2e7b-4ff4-b8c0-f04cc3947504)
 
+
